@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 1", "Week 1", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-CountElementsGreaterThanPreviousAverage", "Week 1\01-CountElementsGreaterThanPreviousAverage\01-CountElementsGreaterThanPreviousAverage.csproj", "{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-FindtheSmallestMissingPositiveInteger", "Week 1\02-FindtheSmallestMissingPositiveInteger\02-FindtheSmallestMissingPositiveInteger.csproj", "{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-CheckPalindromebyFilteringNon-Letters", "Week 1\03-CheckPalindromebyFilteringNon-Letters\03-CheckPalindromebyFilteringNon-Letters.csproj", "{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-CheckforNon-IdenticalStringRotation", "Week 1\04-CheckforNon-IdenticalStringRotation\04-CheckforNon-IdenticalStringRotation.csproj", "{63AF3067-6DC4-40D3-6AB9-6625A7AD7004}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-TargetIndexSearch", "Week 1\05-TargetIndexSearch\05-TargetIndexSearch.csproj", "{011A1254-995D-3F00-55E6-2780D9739BD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-FindFirstOcurrence", "Week 1\06-FindFirstOcurrence\06-FindFirstOcurrence.csproj", "{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63AF3067-6DC4-40D3-6AB9-6625A7AD7004}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63AF3067-6DC4-40D3-6AB9-6625A7AD7004}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63AF3067-6DC4-40D3-6AB9-6625A7AD7004}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63AF3067-6DC4-40D3-6AB9-6625A7AD7004}.Release|Any CPU.Build.0 = Release|Any CPU
+		{011A1254-995D-3F00-55E6-2780D9739BD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{011A1254-995D-3F00-55E6-2780D9739BD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{011A1254-995D-3F00-55E6-2780D9739BD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{011A1254-995D-3F00-55E6-2780D9739BD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9B242D9-ADFF-DB9A-E8FE-957ECD294A8B} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{7DB8DD0B-C37A-4ACE-2B11-EE3A70145B21} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{E6E3956D-8D06-56F7-BF3F-81EA7A3936C0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{63AF3067-6DC4-40D3-6AB9-6625A7AD7004} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{011A1254-995D-3F00-55E6-2780D9739BD5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{D3DC2D2B-B526-E00C-F6CD-30F0BAF7981F} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}
+	EndGlobalSection
+EndGlobal
