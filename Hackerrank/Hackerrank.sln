@@ -47,6 +47,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-DivisibleSumPairs", "Wee
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-SparseArrays", "Week 1\07-SparseArrays\07-SparseArrays.csproj", "{50920FD7-B1C8-0B93-5A92-79988B768923}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-LonelyInteger", "Week 2\01-LonelyInteger\01-LonelyInteger.csproj", "{ABA01BFF-9893-7A14-C057-7524D67BB0AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -121,6 +123,10 @@ Global
 		{50920FD7-B1C8-0B93-5A92-79988B768923}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50920FD7-B1C8-0B93-5A92-79988B768923}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50920FD7-B1C8-0B93-5A92-79988B768923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA01BFF-9893-7A14-C057-7524D67BB0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA01BFF-9893-7A14-C057-7524D67BB0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA01BFF-9893-7A14-C057-7524D67BB0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA01BFF-9893-7A14-C057-7524D67BB0AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -143,6 +149,7 @@ Global
 		{4F6D85ED-4D02-FBB8-7521-55F877CBAD29} = {913FAE4A-0533-460B-B647-A110914C8E31}
 		{CC6C3B89-989D-920F-AB15-200C7D49D553} = {913FAE4A-0533-460B-B647-A110914C8E31}
 		{50920FD7-B1C8-0B93-5A92-79988B768923} = {913FAE4A-0533-460B-B647-A110914C8E31}
+		{ABA01BFF-9893-7A14-C057-7524D67BB0AB} = {57A6A123-7A3A-436A-A55C-3B63D031E2C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}
