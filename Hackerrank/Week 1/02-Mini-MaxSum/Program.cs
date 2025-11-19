@@ -24,8 +24,10 @@ class Result
     public static void miniMaxSum(List<int> arr)
     {
         long sum = arr.Select(x => (long)x).Sum();
+        var maxValue = arr.Max();
+        var minValue = arr.Min();
 
-        Console.WriteLine("{0} {1}", sum - arr.Max(), sum - arr.Min());
+        Console.WriteLine("{0} {1}", sum - maxValue, sum - minValue);
     }
 
 }

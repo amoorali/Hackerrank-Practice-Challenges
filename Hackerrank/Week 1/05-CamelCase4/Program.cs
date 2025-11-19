@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
 class Solution
 {
     static void Main(String[] args)
@@ -17,12 +18,16 @@ class Solution
 
             // break each line into 3 parts
             data = line.Trim().Split(';');
+            var operationType = data[0];
+            var variableType = data[1];
+            var variableName = data[2];
+            
 
             // determine split or combine operation
-            if (data[0].Equals("S"))
-                Console.WriteLine(SplitLine(data[1], data[2]));
+            if (operationType.Equals("S"))
+                Console.WriteLine(SplitLine(variableType, variableName));
             else
-                Console.WriteLine(CombineLine(data[1], data[2]));
+                Console.WriteLine(CombineLine(variableType, variableName));
 
         }
     }
@@ -44,19 +49,19 @@ class Solution
     public static string CombineLine(string type, string name)
     {
         var variableNames = name.Split();
-        var result = String.Empty;
+        var result = new StringBuilder();
         foreach (string variableName in variableNames)
         {
-            result += Char.ToUpper(variableName[0]) + variableName.Substring(1);
+            result.Append(Char.ToUpper(variableName[0]) + variableName.Substring(1));
         }
 
         if (type.Equals("C"))
-            return result;
+            return result.ToString();
 
         // if it's not a class name make first letter lowercase
-        result = Char.ToLower(result[0]) + result.Substring(1);
+        result[0] = Char.ToLower(result[0]);
         if (type.Equals("M"))
-            return result + "()";
-        return result;
+            return result.Append("()").ToString();
+        return result.ToString();
     }
 }

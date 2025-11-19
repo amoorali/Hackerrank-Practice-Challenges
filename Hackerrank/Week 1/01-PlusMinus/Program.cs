@@ -32,9 +32,9 @@ class Result
             else zero++;
         }
 
-        Console.WriteLine(((decimal)pos / arr.Count).ToString("N6"));
-        Console.WriteLine(((decimal)neg / arr.Count).ToString("N6"));
-        Console.WriteLine(((decimal)zero / arr.Count).ToString("N6"));
+        Console.WriteLine(String.Format("{0:N6}\n{1:N6}\n{2:N6}", (decimal)pos / arr.Count,
+                                                                  (decimal)neg / arr.Count,
+                                                                  (decimal)zero / arr.Count));
 
     }
 

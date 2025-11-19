@@ -26,36 +26,36 @@ class Result
 
      public static List<int> matchingStrings1(List<string> strings, List<string> queries)
     {
-        var freq = new int[queries.Count];
+        var frequency = new int[queries.Count];
         foreach (string s in strings)
         {
             for (int i = 0; i < queries.Count; i++)
             {
                 if (s.Equals(queries[i]))
-                    freq[i]++;
+                    frequency[i]++;
             }
         }
 
-        return freq.ToList();
+        return frequency.ToList();
     }
 
     public static List<int> matchingStrings2(List<string> strings, List<string> queries)
     {
-        var strings_dict = new Dictionary<string, int>();
+        var stringsDictionary = new Dictionary<string, int>();
         var freq = new int[queries.Count];
 
         foreach (string s in strings)
         {
-            if (strings_dict.ContainsKey(s))
-                strings_dict[s]++;
+            if (stringsDictionary.ContainsKey(s))
+                stringsDictionary[s]++;
             else
-                strings_dict[s] = 1;
+                stringsDictionary[s] = 1;
         }
 
         for (int i = 0; i < queries.Count; i++)
         {
-            if (strings_dict.ContainsKey(queries[i]))
-                freq[i] = strings_dict[queries[i]];
+            if (stringsDictionary.ContainsKey(queries[i]))
+                freq[i] = stringsDictionary[queries[i]];
         }
 
         return freq.ToList();

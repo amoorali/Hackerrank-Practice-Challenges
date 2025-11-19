@@ -24,7 +24,7 @@ class Result
 
     public static string timeConversion(string s)
     {
-        StringBuilder temp = new StringBuilder();
+        StringBuilder result = new StringBuilder();
         string time = s.Substring(0, s.Length - 2);
         string format = s.Substring(s.Length - 2);
 
@@ -40,7 +40,7 @@ class Result
             if (hour != 12)
                 hour += 12;
         }
-        return temp.Append($"{hour:00}").Append(rest).ToString();
+        return result.Append($"{hour:00}").Append(rest).ToString();
     }
 
 }
