@@ -31,15 +31,12 @@ class Result
         int hour = Int32.Parse(time.Substring(0, 2));
         string rest = time.Substring(2);
 
-        if (format.ToLower().Equals("am"))
-        {
-            if (hour == 12) hour = 0;
-        }
-        else if (format.ToLower().Equals("pm"))
-        {
-            if (hour != 12)
-                hour += 12;
-        }
+        if (format.ToLower().Equals("am") && hour == 12)
+            hour = 0;
+
+        else if (format.ToLower().Equals("pm") && hour != 12)
+            hour += 12;
+
         return result.Append($"{hour:00}").Append(rest).ToString();
     }
 
