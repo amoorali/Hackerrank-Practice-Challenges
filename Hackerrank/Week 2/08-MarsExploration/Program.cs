@@ -42,6 +42,25 @@ class Result
         return changedLettersCount;
     }
 
+    public static int marsExploration2(string s)
+    {
+        var changedLettersCount = 0;
+
+        for (int i = 0; i < s.Count(); i++)
+        {
+            var letter = s[i];
+
+            if ((i % 3) == 1 && letter == 'O')
+                continue;
+            if (((i % 3) == 0 || (i % 3) == 2) && letter == 'S')
+                continue;
+
+            changedLettersCount++;
+        }
+
+        return changedLettersCount;
+    }
+
 }
 
 class Solution
