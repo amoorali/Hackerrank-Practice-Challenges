@@ -23,13 +23,18 @@ class Result
 
     public static void plusMinus(List<int> arr)
     {
-        int positive = 0; int negative = 0; int zero = 0;
+        int positive = 0;
+        int negative = 0;
+        int zero = 0;
 
         foreach (var number in arr)
         {
-            if (number > 0) positive++;
-            else if (number < 0) negative++;
-            else zero++;
+            if (number > 0)
+                positive++;
+            else if (number < 0)
+                negative++;
+            else
+                zero++;
         }
 
         Console.WriteLine(String.Format("{0:N6}\n{1:N6}\n{2:N6}", (decimal)positive / arr.Count,
