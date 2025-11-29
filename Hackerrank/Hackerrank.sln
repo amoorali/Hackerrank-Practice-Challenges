@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-MigratoryBirds", "Week 3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-MaximumPerimeterTriangle", "Week 3\06-MaximumPerimeterTriangle\06-MaximumPerimeterTriangle.csproj", "{1D724867-038E-00ED-60BC-B43374F13D1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-ZigZagSequence", "Week 3\07-ZigZagSequence\07-ZigZagSequence.csproj", "{F32AD1F5-3789-6080-3411-31587B28CFB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -211,6 +213,10 @@ Global
 		{1D724867-038E-00ED-60BC-B43374F13D1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D724867-038E-00ED-60BC-B43374F13D1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D724867-038E-00ED-60BC-B43374F13D1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -248,6 +254,7 @@ Global
 		{83FC79D7-0FB2-A4EE-792D-2936D458191F} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 		{92B9FC82-6A79-C842-8935-B5E0FAAEDED0} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 		{1D724867-038E-00ED-60BC-B43374F13D1C} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
+		{F32AD1F5-3789-6080-3411-31587B28CFB7} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}
