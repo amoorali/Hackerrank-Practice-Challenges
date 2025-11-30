@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06-MaximumPerimeterTriangle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-ZigZagSequence", "Week 3\07-ZigZagSequence\07-ZigZagSequence.csproj", "{F32AD1F5-3789-6080-3411-31587B28CFB7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-DrawingBook", "Week 3\08-DrawingBook\08-DrawingBook.csproj", "{BC1889CA-BA97-C26D-D2AB-C26F378D5E05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32AD1F5-3789-6080-3411-31587B28CFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC1889CA-BA97-C26D-D2AB-C26F378D5E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC1889CA-BA97-C26D-D2AB-C26F378D5E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC1889CA-BA97-C26D-D2AB-C26F378D5E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC1889CA-BA97-C26D-D2AB-C26F378D5E05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -255,6 +261,7 @@ Global
 		{92B9FC82-6A79-C842-8935-B5E0FAAEDED0} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 		{1D724867-038E-00ED-60BC-B43374F13D1C} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 		{F32AD1F5-3789-6080-3411-31587B28CFB7} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
+		{BC1889CA-BA97-C26D-D2AB-C26F378D5E05} = {B4F9CBBF-5898-4B6B-95F2-213189F3B0A9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}
