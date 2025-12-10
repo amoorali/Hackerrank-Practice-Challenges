@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-NumberLineJumps", "Week 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-SeparateTheNumbers", "Week 4\04-SeperateTheNumbers\04-SeparateTheNumbers.csproj", "{B8D3EC53-DB65-244E-083A-E1A0E5738894}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockTest", "Week 2\MockTest\MockTest.csproj", "{729A4BA2-212F-C362-8052-FB6BA9A0C7A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -247,6 +249,10 @@ Global
 		{B8D3EC53-DB65-244E-083A-E1A0E5738894}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8D3EC53-DB65-244E-083A-E1A0E5738894}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8D3EC53-DB65-244E-083A-E1A0E5738894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729A4BA2-212F-C362-8052-FB6BA9A0C7A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729A4BA2-212F-C362-8052-FB6BA9A0C7A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729A4BA2-212F-C362-8052-FB6BA9A0C7A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729A4BA2-212F-C362-8052-FB6BA9A0C7A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -290,6 +296,7 @@ Global
 		{43D57301-10EC-DF38-CB4E-96EE881E48B9} = {F98DB6CD-57B8-4550-BAB1-57C0F8198A57}
 		{98FD0A9E-D08E-4DFD-7129-1396FC6130A7} = {F98DB6CD-57B8-4550-BAB1-57C0F8198A57}
 		{B8D3EC53-DB65-244E-083A-E1A0E5738894} = {F98DB6CD-57B8-4550-BAB1-57C0F8198A57}
+		{729A4BA2-212F-C362-8052-FB6BA9A0C7A6} = {57A6A123-7A3A-436A-A55C-3B63D031E2C0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}

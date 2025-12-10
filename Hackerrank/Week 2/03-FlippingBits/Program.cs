@@ -32,6 +32,18 @@ class Result
         return (UInt32)(~n);
     }
 
+    public static long flippingBits3(long n)
+    {
+        var binaryString = Convert.ToString(n, 2).PadLeft(32, '0');
+        var flippedBits = new StringBuilder();
+
+        foreach (var bit in binaryString)
+        {
+            flippedBits.Append(bit == '0' ? '1' : '0');
+        }
+
+        return Convert.ToInt64(flippedBits.ToString(), 2);
+    }
 }
 
 class Solution

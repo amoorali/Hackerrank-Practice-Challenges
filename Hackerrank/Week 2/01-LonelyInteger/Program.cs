@@ -24,23 +24,38 @@ class Result
 
     public static int lonelyinteger(List<int> a)
     {
-        var freq = new Dictionary<int, int>();
+        var frequency = new Dictionary<int, int>();
         for (int i = 0; i < a.Count; i++)
         {
-            if (freq.ContainsKey(a[i]))
-                freq[a[i]]++;
+            if (frequency.ContainsKey(a[i]))
+                frequency[a[i]]++;
             else
-                freq[a[i]] = 1;
+                frequency[a[i]] = 1;
         }
 
-        for (int i = 0; i < freq.Count; i++)
+        for (int i = 0; i < frequency.Count; i++)
         {
-            var tmp = freq.ElementAt(i);
-            if (tmp.Value == 1)
-                return tmp.Key;
+            var temp = frequency.ElementAt(i);
+            if (temp.Value == 1)
+                return temp.Key;
         }
 
         return 0;
+    }
+
+    public static int Lonelyinteger(List<int> a)
+    {
+        var frequency = new HashSet<int>();
+
+        foreach (var number in a)
+        {
+            if (frequency.Contains(number))
+                frequency.Remove(number);
+            else
+                frequency.Add(number);
+        }
+
+        return frequency.First();
     }
 
 }

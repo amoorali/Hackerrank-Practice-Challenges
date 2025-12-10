@@ -61,6 +61,36 @@ class Result
         return changedLettersCount;
     }
 
+    public static int marsExploration3(string s)
+    {
+        const int chunkSize = 3;
+        var changedLettersCount = 0;
+
+        var chunks = Enumerable.Range(0, s.Length / chunkSize)
+                               .Select(i => s.Substring(i * chunkSize, chunkSize));
+
+        foreach (var chunk in chunks)
+        {
+            changedLettersCount += ChangedLetters(chunk);
+        }
+
+        return changedLettersCount;
+    }
+
+    public static int ChangedLetters(string chunk)
+    {
+        const string expectedString = "SOS";
+        var changedLetters = 0;
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (chunk[i] != expectedString[i])
+                changedLetters++;
+        }
+
+        return changedLetters;
+    }
+
 }
 
 class Solution

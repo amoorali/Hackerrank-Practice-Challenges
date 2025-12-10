@@ -24,12 +24,13 @@ class Result
 
     public static List<int> countingSort(List<int> arr)
     {
-        var freq = new int[100];
+        const int range = 100;
+        var frequency = new int[range];
 
         for (int i = 0; i < arr.Count; i++)
-            freq[arr[i]]++;
+            frequency[arr[i]]++;
 
-        return freq.ToList();
+        return frequency.ToList();
     }
 
 }

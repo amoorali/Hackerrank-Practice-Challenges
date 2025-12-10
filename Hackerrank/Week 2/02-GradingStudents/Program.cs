@@ -24,6 +24,8 @@ class Result
 
     public static List<int> gradingStudents(List<int> grades)
     {
+        var roundedGrades = new List<int>(grades);
+
         for (int i = 0; i < grades.Count; i++)
         {
             var grade = grades[i];
@@ -31,12 +33,20 @@ class Result
             if (grade < 38)
                 continue;
 
-            var tmp = 5 - (grade % 5);
-            if (tmp < 3)
-                grades[i] = grade + tmp;
+             roundedGrades[i] = Round(grade);
         }
 
-        return grades;
+        return roundedGrades;
+    }
+
+    public static int Round(int grade)
+    {
+        var temp = 5 - (grade % 5);
+
+        if (temp < 3)
+            return temp + grade;
+
+        return grade;
     }
 
 }

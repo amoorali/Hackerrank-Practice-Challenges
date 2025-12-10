@@ -24,20 +24,20 @@ class Result
 
      public static int diagonalDifference1(List<List<int>> arr)
     {
-        var n = arr.Count - 1;
-        var m = arr[0].Count - 1;
+        var rows = arr.Count - 1;
+        var columns = arr[0].Count - 1;
 
         var leftToRight = 0;
         var rightToLeft = 0;
 
-        for (int i = 0; i <= n; i++)
+        for (int i = 0; i <= rows; i++)
         {
-            for (int j = 0; j <= m; j++)
+            for (int j = 0; j <= columns; j++)
             {
                 if (i == j)
                     leftToRight += arr[i][j];
 
-                if (i + j == m)
+                if (i + j == columns)
                     rightToLeft += arr[i][j];
             }
         }
