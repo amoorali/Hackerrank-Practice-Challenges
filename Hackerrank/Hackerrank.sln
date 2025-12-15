@@ -103,6 +103,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Week 5", "Week 5", "{3BC747
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-MaxMin", "Week 5\01-MaxMin\01-MaxMin.csproj", "{8145D890-00E0-888D-D665-AA1A4CA94774}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-StrongPassword", "Week 5\02-StrongPassword\02-StrongPassword.csproj", "{517635B6-3427-31B5-4282-E561495E1F6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -285,6 +287,10 @@ Global
 		{8145D890-00E0-888D-D665-AA1A4CA94774}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8145D890-00E0-888D-D665-AA1A4CA94774}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8145D890-00E0-888D-D665-AA1A4CA94774}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517635B6-3427-31B5-4282-E561495E1F6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517635B6-3427-31B5-4282-E561495E1F6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517635B6-3427-31B5-4282-E561495E1F6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517635B6-3427-31B5-4282-E561495E1F6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -334,6 +340,7 @@ Global
 		{043CAB23-7860-1D4C-EB4C-4F0F040B55ED} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{74350EEC-7D86-D220-BF83-E661C649F747} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{8145D890-00E0-888D-D665-AA1A4CA94774} = {3BC74747-1B6C-4159-BDB6-525445898517}
+		{517635B6-3427-31B5-4282-E561495E1F6E} = {3BC74747-1B6C-4159-BDB6-525445898517}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45F8315C-7DE8-4906-B06D-6A83B793784C}
